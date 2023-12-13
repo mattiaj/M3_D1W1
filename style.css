@@ -1,0 +1,79 @@
+/* es. 1 */
+h1 {
+    color: red;
+}
+
+.jumbotron div.col-md-6 h1 {
+    color: red;
+}
+
+/* es. 2 */
+.nav span {
+    border: solid 2px black;
+}
+
+/* es. 3 */
+.lead a {
+    background-color: red;
+}
+
+.font-weight-bold {
+    
+}
+
+/* es. 4 */
+
+.container .row .blog-main div:first-of-type{
+    background-color: brown;
+}
+
+/* es. 5 */
+
+hr:first-of-type {
+    color: red;
+    padding: 40px 0;
+}
+
+/* es. 6 */
+
+.nav span:nth-of-type(even) {
+    color: red;
+}
+
+/* es. 7 */
+
+ol.mb-0 > li {
+    margin: 5px 0;
+    border: solid 2px black;
+}
+
+/* es. 8 */
+
+.blog-main .blog-post:nth-of-type(2) p.blog-post-meta a {
+    background-color: red;
+}
+
+/* es. 9 */
+
+div.blog-post:nth-of-type(3) ul li:nth-of-type(2) {
+    background-color: red;
+}
+/* es. 9 se sono solo 3 */
+div.blog-post:nth-of-type(3) ul li:nth-of-type(even) { 
+    
+}
+
+/* es. 10 */
+footer.blog-footer + a {
+    background-color: red;
+}
+
+/* es. 11 */
+.btn-outline-secondary.disabled {
+    border-color: red;
+}
+
+/* es. 12 */
+.blog-footer .text-center a:nth-of-type(2) {
+    background-color: red;
+}
